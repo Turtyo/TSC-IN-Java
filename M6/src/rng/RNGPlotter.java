@@ -67,8 +67,8 @@ public class RNGPlotter {
 	public static void main(String[] args) {
 		RNGPlotter plotter = new RNGPlotter(800, 450);
 		int nb = 5000;
-		plotter.show(0, new UniformRNG(1., 3.), nb);
-		plotter.show(1, new GaussianRNG(0., 0.1), nb);
+		plotter.show(0, new UniformRNG(1, 3), nb);
+		plotter.show(1, new GaussianRNG(0, 0.1), nb);
 	}
 
 }

@@ -1,16 +1,16 @@
 package rng;
 
 public class GaussianRNG extends AbstractRNG{
-    private Double mu;
-    private Double sigma;
+    private double mu;
+    private double sigma;
 
-    public GaussianRNG(Double mu, Double sigma){
+    public GaussianRNG(double mu, double sigma){
         super();
         this.mu = mu;
         this.sigma = sigma;
     }
     
-    public Double genSample(){
+    public double genSample(){
         return mu + sigma * rand.nextGaussian();
     }
 

@@ -9,8 +9,10 @@ public class UniformRNG extends AbstractRNG{
         this.a = a;
         this.b = b;
     }
+
     
-    public Double genSample(){
+    
+    public double genSample(){
         return a + (b-a) * rand.nextDouble();
     }
 

@@ -9,7 +9,7 @@ abstract class AbstractRNG {
         this.rand = new Random();
     }
 
-    public abstract Double genSample();
+    public abstract double genSample();
 
     public ArrayList<Double> genSampleList(int nb)
     {
