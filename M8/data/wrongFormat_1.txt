@@ -1,0 +1,4 @@
+Moi, 47
+Toi, 22.5
+Lui, trente-trois
+Eux, 66
